@@ -35,6 +35,7 @@
 
 .nav-list-item:hover {
   background-color: var(--main-nav-hover-color);
+  transition: .2s all;
 }
 
 .nav-list-link {
@@ -52,6 +53,7 @@
   left: 0;
   right: 0;
   display: none;
+  transition: .5s all;
 }
 
 .nav-sub-list-item {
@@ -61,6 +63,7 @@
 
 .nav-sub-list-item:hover {
   background-color: var(--main-nav-hover-color);
+  transition: .2s;
 }
 
 .right {
